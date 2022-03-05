@@ -1,0 +1,21 @@
+{
+	"name": "among_us",
+	"version": "1.0.0",
+	"description": "Library to determine if an array contains a certain element with a deep equal",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"main": "tsc && node ./dist/index.js"
+	},
+	"keywords": [
+		"among",
+		"us",
+		"array",
+		"includes"
+	],
+	"author": "Zoë Shackleton",
+	"license": "MIT",
+	"files":[
+		"dist/**"
+	]
+}
