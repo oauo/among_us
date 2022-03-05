@@ -1,5 +1,5 @@
 {
-	"name": "among_us",
+	"name": "@oauo/among_us",
 	"version": "1.0.0",
 	"description": "Library to determine if an array contains a certain element with a deep equal",
 	"main": "./dist/index.js",
@@ -17,5 +17,9 @@
 	"license": "MIT",
 	"files":[
 		"dist/**"
-	]
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oauo/among_us.git"
+	}
 }
