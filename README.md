@@ -43,6 +43,6 @@ among(x).us([
 There are 2 options that can be declared inside the `among(x, {shallowEqual:boolean, maxDepth:number})` function.
 
 - `shallowEqual` [`false`] whether to do a shallow compare where `{foo:0} != {foo:0}` but `x == x` if referenced in the array.
-- `maxDepth` [`8`] maximum number of recursions to compare to. A recursion is needed for each nested object or array, but not siblings.
+- `maxDepth` [`8`] maximum number of recursions to compare to. A recursion is needed for each nested object or array, but not siblings. Setting this to `0` disables `maxDepth`.
 
 sus
