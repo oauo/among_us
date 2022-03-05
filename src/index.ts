@@ -3,7 +3,7 @@ const recursive_equal = (
 	comparison:any,
 	maxDepth:number = 8,
 	depth:number = 0,
-):any => {
+):boolean => {
 	if(maxDepth > 0 && depth == maxDepth) return true; //Assume rest matches once in too deep
 
 	if(obj === comparison) return true;
